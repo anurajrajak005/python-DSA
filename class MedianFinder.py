@@ -1,4 +1,4 @@
-# code first in MedianFinder
+# code first in MedianFinder #Check
 
 class MedianFinder:
 
@@ -8,7 +8,6 @@ class MedianFinder:
     def addNum(self, num: int) -> None:
         self.stream.append(num)
         self.stream.sort()
-
 
     def findMedian(self) -> float:
         mid = len(self.stream) // 2
@@ -23,9 +22,9 @@ class MedianFinder:
 # obj = MedianFinder()
 # obj.addNum(num)
 # param_2 = obj.findMedian()
- 
 
-# code Second in MedianFinder using heap short 
+
+# code Second in MedianFinder using heap short
 
 from heapq import heapify, heappop, heappush
 class MedianFinder:
@@ -40,10 +39,4 @@ class MedianFinder:
     def findMedian(self) -> float:
         if len(self.left)==len(self.right):
             return ((-self.left[0])+self.right[0])/2
-        return -self.left[0]            
-
-
-
-
-
-
+        return -self.left[0]
