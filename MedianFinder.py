@@ -73,7 +73,7 @@ def findMedian(self) -> float:
         return ((-self.left[0])+self.right[0])/2
     return -self.left[0]
 
-  -- day 4
+#   -- day 4
 def __init__(self):
     self.left,self.right =[],[]
 def addNum(self, num: int) -> None:
@@ -87,5 +87,3 @@ def Findmedian(self) ->float:
         return ((-self.left[0]+self.right[0]))/2
     return -self.left[0]
 
-
-def

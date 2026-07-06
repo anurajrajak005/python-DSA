@@ -14,7 +14,7 @@ for n in nums:
     counts[n]+=1
 print(counts)
 
- - 2nd method
+#  - 2nd method
 from collections import defaultdict
 nums = [1,1,2,4,3,4,3,2,4,2,5]
 counts = defaultdict(int)
